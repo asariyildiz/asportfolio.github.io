@@ -1,0 +1,189 @@
+.backgr {
+  background-color:rgb(251, 249, 247);
+}
+
+.container {
+    display: grid;
+    justify-content:space-evenly;
+    grid-template-columns: 500px;
+    grid-template-rows: 300px;
+ }
+
+ .img-fluid{
+    border:1px solid black;
+    border-radius: 30px;
+ }
+
+.hakkimda-ana-sayfa-yazi{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.hakkimda-ana-sayfa-yazi h1{
+    font-weight:bold;
+}
+
+.hakkimda-ana-sayfa-yazi p{
+    font-size: 1.5rem;
+}
+
+#hover-on{
+    color: rgb(90, 214, 90);
+}
+
+#onemli-yazi{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+}
+
+.tooltip-text1 {
+    position: absolute;
+    left: -75%;
+    z-index: 2;
+    width: 200px;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid greenyellow;
+    border-radius: 30px;
+    padding: 10px 5px 10px 5px;
+  }
+
+  .tooltip-text2 {
+    position: absolute;
+    right: -75%;
+    z-index: 2;
+    width: 200px;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid greenyellow;
+    border-radius: 30px;
+    padding: 10px 5px 10px 5px;
+  }
+
+  .tooltip-text3 {
+    position: absolute;
+    left: -110%;
+    z-index: 2;
+    width: 200px;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid greenyellow;
+    border-radius: 30px;
+    padding: 10px 5px 10px 5px;
+    
+  }
+
+  .tooltip-text4 {
+    position: absolute;
+    bottom: -40px;
+    left: -10%;
+    z-index: 2;
+    width: 200px;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid greenyellow;
+    border-radius: 30px;
+    padding: 10px 5px 10px 5px;
+  }
+
+  .tooltip-text5 {
+    position: absolute;
+    right: -110%;
+    z-index: 2;
+    width: 200px;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    border: 2px solid greenyellow;
+    border-radius: 30px;
+    padding: 10px 5px 10px 5px;
+  }
+  
+  #fade {
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+
+  .hover-text:hover #fade { opacity: 1; }
+  
+  .hover-text {
+    position: relative;
+    display: inline-block;
+    font-family: Arial;
+    text-align: center;
+  }
+
+.mrsme {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  height: 500px;
+}
+
+.container2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  transform: translate( -50% );
+  left: 50%;
+}
+
+#my-photos{
+  border: 2px solid black;
+  border-radius: 200px;
+  align-items: end;
+}
+
+.imageText {
+  font-size: 10px;
+  padding-left: 20px;
+}
+
+.hakkimdaFooter {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.containerHakkimdaFooter {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  bottom: 0;
+  background-color: rgb(248, 244, 238);
+}
+
+.footer-hakkimda, .footer-iletisim {
+  min-width: 200px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 20px;
+}
+
+@media (max-width: 600px) {
+  .containerHakkimdaFooter {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-hakkimda,  .footer-iletisim {
+      min-width: 100%;
+      text-align: center;
+  }
+}
+
+.footerHakkimdaYazi {
+  margin-bottom: 0;
+}
